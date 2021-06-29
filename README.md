@@ -21,4 +21,6 @@ La idea básica es servir de puente para registrar el contenido en un repositori
  - auth
  - post
  - read
-[](https://github.com/celerno/simus/blob/main/simus%20-%20api.png)
+
+
+![](https://github.com/celerno/simus/blob/main/simus%20-%20api.png)
