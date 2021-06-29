@@ -1,7 +1,15 @@
 # simus
 
-Simus (nosotros en latín, o eso creo) es una plataforma backend+front+end ideada para resolver las necesidades de propiedad de todo lo que uno genera hacia sus redes sociales. 
+Simus (nosotros en latín, o eso creo) es una solución compuesta por un programa servidor+blog web+app mobile ideada para resolver las necesidades de propiedad de todo lo que uno genera hacia sus redes sociales. 
+
 La idea básica es servir de puente para registrar el contenido en un repositorio personal, y, después, enviarlo a cualquier red social de preferencia conectado con las apis adecuadas de cada sitio.
+
+Actualmente todo nuestro contenido generado se entrega a las redes donde lo vaciamos de manera directa a la red destino, ejemplo, escribimos un tuiter y se entrega ahí. Suponiendo el usuario E, esta solución propone tener una aplicación genérica (el teléfono de E) para crear ese contenido, dicha app estará conectada a el servidor propio del usuario (blogdeE.com), y ese servidor estará conectado a las redes destino configuradas por el propio usuario E (al tuiter de E, facebook de E, instagram de E).
+
+
+![](https://github.com/celerno/simus/blob/main/simus%20-%20api.png)
+
+
 
 ## Backend - web.api
 - config
@@ -21,6 +29,3 @@ La idea básica es servir de puente para registrar el contenido en un repositori
  - auth
  - post
  - read
-
-
-![](https://github.com/celerno/simus/blob/main/simus%20-%20api.png)
